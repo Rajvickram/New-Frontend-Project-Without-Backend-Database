@@ -32,3 +32,23 @@ LEVEL 5 – Polishing (UI)
 
     I) Open Login.html File
    II) Title, Email Input, Password Input and Login Button 
+
+
+Folder Structure for this Whole Project :-
+----------------------------------------------
+Frontend-Practice-Project/
+│
+├── login.html
+├── dashboard.html
+├── add-product.html
+│
+├── css/
+│   └── style.css   (we will create later)
+│
+├── js/
+│   ├── login.js        (later)
+│   ├── dashboard.js   (later)
+│   └── add-product.js (later)
+│
+└── data/
+    └── products.json  (later)
