@@ -1,0 +1,4 @@
+#headTitle:hover {
+    color: aqua;
+    transition: .8s ease-in-out;
+}
