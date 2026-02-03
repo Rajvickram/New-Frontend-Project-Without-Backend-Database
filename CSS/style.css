@@ -6,6 +6,9 @@
     width: 7rem;
 }
 
+.navbar-toggler {
+    /* background-color: aquamarine !important; */
+}
 
 
 
@@ -34,4 +37,53 @@
     color: lightcoral !important;
     font-weight: bold;
     transition: .5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Starts Media Queries :- */
+
+@media screen and (max-width: 768px) {
+    #navbar-Bg {
+        width: 100% !important;
+        background-color: lightcoral !important;
+    }
+
+    #hero-title {
+        color: aqua;
+        text-align: center;
+    }
+
+    #hero-subtitle {
+        color: aqua;
+        text-align: center;
+    }
+
+    #get-started-button {
+        background-color: aqua;
+        width: 10rem;
+        display: block;
+        justify-self: center;
+    }
+
+    #learn-more-button {
+        background-color: aqua;
+        width: 10rem;
+        display: block;
+        justify-self: center;
+        margin-top: 1rem;
+        margin-right: 0.4rem;
+    }
+
+    #hero-image {
+        margin-top: 2rem;
+    }
 }
