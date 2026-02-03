@@ -30,3 +30,8 @@
 
 
 /* Hover Effects Elements :- */
+.nav-link:hover {
+    color: lightcoral !important;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+}
