@@ -30,8 +30,6 @@
 
 
 
-
-
 /* Hover Effects Elements :- */
 .nav-link:hover {
     color: lightcoral !important;
@@ -39,8 +37,20 @@
     transition: .5s ease-in-out;
 }
 
+.feature-icon--products:hover {
+    color: #0d6efd;
+    transition: .5s ease-in-out;
+}
 
+.feature-icon--reports:hover {
+    color: #198754;
+    transition: .5s ease-in-out;
+}
 
+.feature-icon--notifications:hover {
+    color: #fd7e14;
+    transition: .5s ease-in-out;
+}
 
 
 
@@ -53,29 +63,29 @@
 
 @media screen and (max-width: 768px) {
     #navbar-Bg {
-        width: 100% !important;
-        background-color: lightcoral !important;
+        width: 80% !important;
+        background-color: lightblue !important;
     }
 
     #hero-title {
-        color: aqua;
+        /* color: aqua; */
         text-align: center;
     }
 
     #hero-subtitle {
-        color: aqua;
+        /* color: aqua; */
         text-align: center;
     }
 
     #get-started-button {
-        background-color: aqua;
+        /* background-color: aqua; */
         width: 10rem;
         display: block;
         justify-self: center;
     }
 
     #learn-more-button {
-        background-color: aqua;
+        /* background-color: aqua; */
         width: 10rem;
         display: block;
         justify-self: center;
