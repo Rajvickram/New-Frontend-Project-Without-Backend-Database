@@ -1,3 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/BG-Images\ For\ LoginPage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+
 #logBtn {
     width: 6rem;
 }
@@ -25,8 +38,19 @@
 
 .card {
     background-color: rgba(255, 255, 255, 0.2) !important;
+    margin: 240px auto;
 }
 
+
+.input-group span {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: rgba(255, 255, 255, 0.2);
+}
+
+.input-group input {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: rgba(255, 255, 255, 0.2);
+}
 
 
 
