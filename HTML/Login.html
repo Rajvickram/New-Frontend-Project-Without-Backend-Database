@@ -30,29 +30,39 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">
-                        <h3 class="card-title text-white text-center">Login to Your Account</h3>
-                    </div>
-                    <div class="card-body">
+                    <h4 class="text-white text-center mt-5">Login to Your Account</h4>
+                    <div class="card-body mt-3">
                         <form action="" method="post" class="">
-                            <label for="Email" class="form-check-label text-white">Email</label>
-                            <div class="input-group">
-                                <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
-                                <input type="email" name="email" id="txt_login_email" class="form-control " placeholder="You@gmail.com">
+                            <label for="Email" class="form-check-label text-white ms-4">Email</label>
+                            <div class="input-group w-75">
+                                <input type="email" name="email" id="txt_login_email" class="form-control ms-4">
                             </div>
 
-                            <label for="Pwd" class="form-check-label text-white mt-3">Password</label>
-                            <div class="input-group">
-                                <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
-                                <input type="password" name="pwd" id="txt_login_password" class="form-control" placeholder="Enter Ur Password">
+                            <label for="Pwd" class="form-check-label text-white mt-3 ms-4">Password</label>
+                            <div class="input-group w-75">
+                                <input type="password" name="pwd" id="txt_login_password" class="form-control ms-4">
+                            </div>
+                            <div class="form-check ms-4 mt-3">
+                                <input type="checkbox" class="form-check-input">
+                                <label for="rember" class="form-check-label text-white ms-1">Rember me?</label>
+                            </div>
+                            <div class="mt-3">
+                                <button type="submit" class="btn btn-primary w-75 ms-4" id="login_btn">LOGIN</button>
+                            </div>
+                            <div class="mt-2">
+                                <a href="#" class="text-decoration-none text-warning float-end me-5 pe-2">Forgot Password?</a>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-6 my-auto">
+                <p class="text-white fw-bold" id="txt_rt_sidePara">THE GOAL OF LIFE IS <br> LIVING IN AGREEMENT <br> WITH NATURE.</p>
+                <hr>
+            </div>
         </div>
     </div>
-
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
